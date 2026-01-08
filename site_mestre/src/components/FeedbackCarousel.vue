@@ -1,15 +1,18 @@
 <template>
   <SectionWrapper title="O que os jogadores dizem">
     <div class="carousel">
-      <button @click="prev">‹</button>
+      <button class="nav" @click="prev" aria-label="Feedback anterior">‹</button>
+
       <div class="card">
-        <p>"{{ feedbacks[current].comment }}"</p>
-        <strong>— {{ feedbacks[current].name }}</strong>
+        <p class="comment">"{{ feedbacks[current].comment }}"</p>
+        <strong class="author">— {{ feedbacks[current].name }}</strong>
       </div>
-      <button @click="next">›</button>
+
+      <button class="nav" @click="next" aria-label="Próximo feedback">›</button>
     </div>
   </SectionWrapper>
 </template>
+
 
 <script setup lang="ts">
 import { ref } from "vue"

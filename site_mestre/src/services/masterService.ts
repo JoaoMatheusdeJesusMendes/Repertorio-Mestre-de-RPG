@@ -9,10 +9,11 @@ export interface Service {
 }
 
 export const getMasterInfo = () => ({
-  name: "Mestre Arkan",
-  tagline: "Narrativas imersivas, decisões reais e consequências memoráveis.",
+  name: "Mestre Biel",
+  tagline: "Narrativas imersivas, decisões reais.",
   description:
-    "Mestre de RPG com anos de experiência em campanhas narrativas focadas em personagens, escolhas e emoção."
+    "Mestre de RPG focado em experiências narrativas profundas.",
+  heroImage: "public/images/master_image.png"
 })
 
 export const getFeedbacks = (): Feedback[] => [
@@ -35,3 +36,27 @@ export const getServices = (): Service[] => [
     description: "Ajuda para mestres criarem mundos e histórias."
   }
 ]
+export interface Contact {
+  label: string
+  value: string
+  link: string
+}
+
+export const getContacts = (): Contact[] => [
+  {
+    label: "WhatsApp",
+    value: "(15) 99148-9779",
+    link: "https://wa.me/5515991489779"
+  },
+  {
+    label: "Discord",
+    value: "gbpastorello",
+    link: "https://discord.com"
+  },
+  {
+    label: "Email",
+    value: "gabrielbpastorello@gmail.com",
+    link: "mailto:gabrielbpastorello@gmail.com"
+  }
+]
+
