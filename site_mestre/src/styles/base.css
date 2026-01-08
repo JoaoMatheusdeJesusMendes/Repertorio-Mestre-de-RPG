@@ -109,4 +109,70 @@ body {
   margin: 0 auto;
 }
 
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+
+  background: rgba(10, 10, 20, 0.55);
+  backdrop-filter: blur(10px);
+
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.navbar-container {
+  max-width: 1200px;
+  margin: 0 auto;
+
+  padding: 1rem 2rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 1.25rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+}
+
+.actions {
+  display: flex;
+  gap: 1rem;
+}
+
+.btn {
+  padding: 0.5rem 1.25rem;
+  border-radius: 999px;
+
+  font-size: 0.9rem;
+  cursor: pointer;
+
+  border: 1px solid transparent;
+  background: transparent;
+  color: inherit;
+
+  transition: all 0.2s ease;
+}
+
+.btn.login {
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+.btn.login:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.btn.primary {
+  background: #8b5cf6;
+  color: #fff;
+}
+
+.btn.primary:hover {
+  background: #7c3aed;
+}
+
+
 
