@@ -1,14 +1,19 @@
-<template>
-  <header class="navbar">
-    <div class="navbar-container">
-      <div class="logo">
-        Mestre Biel
-      </div>
+<script setup lang="ts">
+import { getBrandInfo } from '../services/brandService'
 
-      <nav class="actions">
-        <button class="btn login">Entrar</button>
-        <button class="btn primary">Cadastrar-se</button>
-      </nav>
+const { name, logo } = getBrandInfo()
+</script>
+
+<template>
+  <nav class="navbar">
+    <div class="logo-area">
+      <img :src="logo" alt="Logo Mestre Biel" class="logo" />
+      <span class="brand-name">{{ name }}</span>
     </div>
-  </header>
+
+    <div class="actions">
+      <button class="btn-outline">Entrar</button>
+      <button class="btn-primary">Cadastrar-se</button>
+    </div>
+  </nav>
 </template>

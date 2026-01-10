@@ -110,14 +110,16 @@ body {
 }
 
 .navbar {
-  position: fixed;
+  position: sticky;
   top: 0;
-  width: 100%;
   z-index: 100;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
-  background: rgba(10, 10, 20, 0.55);
-  backdrop-filter: blur(10px);
-
+  padding: 1rem 2rem;
+  background: rgba(15, 23, 42, 0.85);
+  backdrop-filter: blur(6px);
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
 
@@ -133,9 +135,15 @@ body {
 }
 
 .logo {
-  font-size: 1.25rem;
-  font-weight: 600;
-  letter-spacing: 0.05em;
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+}
+
+.logo-area {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
 }
 
 .actions {
@@ -172,6 +180,33 @@ body {
 
 .btn.primary:hover {
   background: #7c3aed;
+}
+
+.btn-outline {
+  background: transparent;
+  border: 1px solid var(--accent-soft);
+  color: var(--text-primary);
+  padding: 0.5rem 1.2rem;
+  border-radius: var(--radius);
+  cursor: pointer;
+}
+
+.btn-primary {
+  background: var(--accent);
+  border: none;
+  color: #000;
+  padding: 0.5rem 1.2rem;
+  border-radius: var(--radius);
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.brand-name {
+  font-family: 'Cinzel', serif;
+  font-size: 1.4rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  color: var(--accent);
 }
 
 .reveal {
