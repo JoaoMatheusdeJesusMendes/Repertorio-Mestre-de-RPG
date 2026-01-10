@@ -1,5 +1,6 @@
 <template>
-  <section class="hero">
+  <section class="hero" v-reveal>
+    
     <div class="hero-content">
       <img
         :src="heroImage"

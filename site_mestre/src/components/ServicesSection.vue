@@ -1,5 +1,5 @@
 <template>
-  <SectionWrapper title="Serviços">
+  <SectionWrapper title="Serviços" v-reveal>
     <div class="services">
       <div v-for="service in services" :key="service.title" class="service">
         <h4>{{ service.title }}</h4>

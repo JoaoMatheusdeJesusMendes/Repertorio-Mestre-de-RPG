@@ -1,5 +1,5 @@
 <template>
-  <SectionWrapper title="Contato">
+  <SectionWrapper title="Contato" v-reveal>
     <ul class="contacts">
       <li
         v-for="contact in contacts"

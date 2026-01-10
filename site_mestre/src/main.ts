@@ -3,7 +3,11 @@ import App from "./App.vue"
 import router from "./router"
 import "./styles/theme.css"
 import "./styles/base.css"
+import reveal from "./directives/reveal"
 
+const app = createApp(App)
 
+app.use(router)
+app.directive("reveal", reveal)
 
-createApp(App).use(router).mount("#app")
+app.mount("#app")
