@@ -17,9 +17,9 @@ export const getMasterInfo = () => ({
 })
 
 export const getFeedbacks = (): Feedback[] => [
-  { name: "João", comment: "Uma das melhores mesas que já joguei!" },
-  { name: "Maria", comment: "História profunda e personagens vivos." },
-  { name: "Lucas", comment: "Cada sessão parecia um episódio de série." }
+  { name: "@Remi", comment: "Mano eu joguei uma mesa com Biel e cara ele é muito desenvolvendo a história, ele te envolve e te ouve, acho o jeito que ele narra muito agradável, além de imersivo te envolve e não te exclui, todo mundo tem seu tempo de tela e se pah foi uma das melhores campanhas que joguei foi com ele narrando." },
+  { name: "@ray", comment: "Cara, eu joguei poucas mesas suas. No entanto eu consigo perceber nessas duas em que joguei que você é um mestre excelente em questões como trabalhar com a história dos jogadores e criar sistemas que aumentem a imersão e que balanceiam os combates na mesa. Uma coisa que acho muito boa em você como mestre é a versatilidade de suas mesas, com você sendo mais mente aberta com homebrews e até mesmo ajudando os jogadores a criar suas classes e raças em caso da pessoa não gostar das que tem no sistema oficial, por exemplo, quando você me ajudou a criar a trilha de valhalla para o bárbaro. Definitivamente você sabe muito bem como tornar uma campanha mais divertida." },
+  { name: "@pietro", comment: "Já joguei com o Gabriel e foi sempre muito bom, mestre dedicado e que escuta o que os players querem/esperam em uma campanha. Recomendo demais!!" }
 ]
 
 export const getServices = (): Service[] => [
