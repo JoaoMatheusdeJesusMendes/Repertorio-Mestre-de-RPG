@@ -3,9 +3,9 @@
     <div class="carousel">
       <button class="nav" @click="prev" aria-label="Feedback anterior">‹</button>
 
-      <div class="card">
-        <p class="comment">"{{ feedbacks[current].comment }}"</p>
-        <strong class="author">— {{ feedbacks[current].name }}</strong>
+      <div class="card" v-if="props.feedbacks[current]">
+        <p class="comment">"{{ props.feedbacks[current]?.comment }}"</p>
+        <strong class="author">— {{ props.feedbacks[current]?.name }}</strong>
       </div>
 
       <button class="nav" @click="next" aria-label="Próximo feedback">›</button>

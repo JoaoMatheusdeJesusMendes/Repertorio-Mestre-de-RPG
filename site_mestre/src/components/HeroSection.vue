@@ -9,9 +9,9 @@
       />
 
       <div class="hero-text">
-        <h1>{{ name }}</h1>
-        <h3>{{ tagline }}</h3>
-        <p>{{ description }}</p>
+        <h1>Mestre Biel</h1>
+        <h3>Narrativas imersivas, decisões reais.</h3>
+        <p>Mestre de RPG focado em experiências narrativas profundas.</p>
       </div>
     </div>
   </section>
@@ -20,9 +20,6 @@
 
 <script setup lang="ts">
 defineProps<{
-  name: string
-  tagline: string
-  description: string
   heroImage: string
 }>()
 </script>

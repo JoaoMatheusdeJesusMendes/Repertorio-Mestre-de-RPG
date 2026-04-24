@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -109,6 +111,18 @@ body {
   margin: 0 auto;
 }
 
+.hero-text h1{
+  font-size: 6rem;
+}
+
+.hero-text h3{
+  font-size: 2rem;
+}
+
+.hero-text p{
+  font-size: 1rem;
+}
+
 .navbar {
   position: sticky;
   top: 0;
@@ -117,7 +131,7 @@ body {
   justify-content: space-between;
   align-items: center;
 
-  padding: 1rem 2rem;
+  padding: 4px;
   background: rgba(15, 23, 42, 0.85);
   backdrop-filter: blur(6px);
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
@@ -135,8 +149,8 @@ body {
 }
 
 .logo {
-  width: 42px;
-  height: 42px;
+  width: 80px;
+  height: 80px;
   object-fit: contain;
 }
 
@@ -202,8 +216,8 @@ body {
 }
 
 .brand-name {
-  font-family: 'Cinzel', serif;
-  font-size: 1.4rem;
+  font-family: 'MedievalSharp', serif;
+  font-size: 2rem;
   font-weight: 600;
   letter-spacing: 0.05em;
   color: var(--accent);

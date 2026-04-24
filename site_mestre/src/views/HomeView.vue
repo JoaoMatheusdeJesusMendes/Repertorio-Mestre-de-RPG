@@ -21,5 +21,5 @@ const contacts = getContacts()
   <HeroSection v-bind="master" />
   <FeedbackCarousel :feedbacks="feedbacks" />
   <ServicesSection :services="services" />
-  <ContactSection :contacts="contacts" />
+  <footer><ContactSection :contacts="contacts" /></footer>
 </template>
