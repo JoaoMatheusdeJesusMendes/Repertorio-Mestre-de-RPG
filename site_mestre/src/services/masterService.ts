@@ -13,7 +13,7 @@ export const getMasterInfo = () => ({
   tagline: "Narrativas imersivas, decisões reais.",
   description:
     "Mestre de RPG focado em experiências narrativas profundas.",
-  heroImage: "public/images/master_image.png"
+  heroImage: "images/master_image.png"
 })
 
 export const getFeedbacks = (): Feedback[] => [
