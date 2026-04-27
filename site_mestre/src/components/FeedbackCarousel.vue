@@ -39,7 +39,6 @@ const prev = () =>
   gap: 1rem;
 }
 .card {
-  max-width: 400px;
   text-align: center;
 }
 </style>

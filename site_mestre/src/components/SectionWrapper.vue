@@ -10,11 +10,6 @@ defineProps<{ title: string }>()
 </script>
 
 <style scoped>
-.section {
-  padding: 4rem 1.5rem;
-  max-width: 900px;
-  margin: auto;
-}
 h2 {
   margin-bottom: 1.5rem;
 }

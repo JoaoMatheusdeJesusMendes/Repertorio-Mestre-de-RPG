@@ -12,8 +12,9 @@ const { name, logo } = getBrandInfo()
     </div>
 
     <div class="actions">
-      <button class="btn-outline">Entrar</button>
-      <button class="btn-primary">Cadastrar-se</button>
+      <button class="btn-nav">Quem eu sou?</button>
+      <button class="btn-nav">Onde posso leva-lo?</button>
+      <button class="btn-nav">Fale comigo!</button>
     </div>
   </nav>
 </template>
