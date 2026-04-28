@@ -3,6 +3,7 @@ import HeroSection from "../components/HeroSection.vue"
 import FeedbackCarousel from "../components/FeedbackCarousel.vue"
 import ServicesSection from "../components/ServicesSection.vue"
 import ContactSection from "../components/ContactSection.vue"
+import Footer from "../components/Footer.vue"
 
 import {
   getMasterInfo,
@@ -22,4 +23,5 @@ const contacts = getContacts()
   <FeedbackCarousel :feedbacks="feedbacks" />
   <ServicesSection :services="services" />
   <ContactSection :contacts="contacts" />
+  <Footer :contacts="contacts" />
 </template>

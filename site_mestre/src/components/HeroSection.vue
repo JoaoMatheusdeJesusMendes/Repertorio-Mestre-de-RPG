@@ -1,5 +1,5 @@
 <template>
-  <section class="hero" v-reveal>
+  <section class="hero" v-reveal id="about">
     
     <div class="hero-content">
       <img

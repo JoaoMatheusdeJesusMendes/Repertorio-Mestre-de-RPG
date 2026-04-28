@@ -25,15 +25,15 @@ export const getFeedbacks = (): Feedback[] => [
 export const getServices = (): Service[] => [
   {
     title: "Campanhas Longas",
-    description: "Narrativas profundas com desenvolvimento de personagens."
+    description: "Deseja entrar em uma mesa de longa duração? Tenho campanhas contínuas para jogadores dedicados, com histórias ricas e desenvolvimento de personagens."
   },
   {
     title: "One-shots",
-    description: "Sessões fechadas para eventos ou grupos iniciantes."
+    description: "Quer experimentar uma aventura rápida? Ofereço one-shots temáticas, perfeitas para eventos ou para quem quer uma experiência única sem compromisso de longo prazo."
   },
   {
     title: "Consultoria Narrativa",
-    description: "Ajuda para mestres criarem mundos e histórias."
+    description: "Precisa de ajuda para criar sua própria campanha? Posso ajudar a desenvolver enredos, personagens e mundos para mestres que desejam aprimorar suas habilidades narrativas."
   }
 ]
 

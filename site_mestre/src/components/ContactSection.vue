@@ -1,12 +1,12 @@
 <template>
   <SectionWrapper title="Contato" v-reveal>
-    <ul class="contacts">
+    <ul class="contacts" id="contact">
       <li
         v-for="contact in contacts"
         :key="contact.label"
         class="contact-item"
       >
-        <strong>{{ contact.label }}:</strong>
+        <strong>{{ contact.label }}: </strong>
         <a
           :href="contact.link"
           target="_blank"

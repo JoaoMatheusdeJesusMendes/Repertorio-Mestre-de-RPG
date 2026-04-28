@@ -1,5 +1,5 @@
 <template>
-  <SectionWrapper title="O que os jogadores dizem" v-reveal>
+  <SectionWrapper title="O que os jogadores dizem" v-reveal id="feedback">
     <div class="carousel">
       <button class="nav" @click="prev" aria-label="Feedback anterior">‹</button>
 

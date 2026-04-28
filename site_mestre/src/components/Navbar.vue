@@ -2,6 +2,13 @@
 import { getBrandInfo } from '../services/brandService'
 
 const { name, logo } = getBrandInfo()
+
+const scrollToSection = (SectionId: string) => {
+  const section = document.getElementById(SectionId)
+  if (section) {
+    section.scrollIntoView({ behavior: 'smooth'})
+  }
+}
 </script>
 
 <template>
@@ -12,9 +19,10 @@ const { name, logo } = getBrandInfo()
     </div>
 
     <div class="actions">
-      <button class="btn-nav">Quem eu sou?</button>
-      <button class="btn-nav">Onde posso leva-lo?</button>
-      <button class="btn-nav">Fale comigo!</button>
+      <button class="btn-nav" @click="scrollToSection('about')">Quem eu sou?</button>
+      <button class="btn-nav" @click="scrollToSection('feedback')">Sussuros da taverna</button>
+      <button class="btn-nav" @click="scrollToSection('services')">Onde posso leva-lo?</button>
+      <button class="btn-nav" @click="scrollToSection('contact')">Fale comigo!</button>
     </div>
   </nav>
 </template>
