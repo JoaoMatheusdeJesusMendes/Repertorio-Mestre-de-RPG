@@ -37,7 +37,7 @@ Página inicial com apresentação do mestre
 <img width="1841" height="472" alt="image" src="https://github.com/user-attachments/assets/8064f00b-e877-4798-a420-484016a07188" />
 
 
-📦 Como rodar o projeto
+# 📦 Como rodar o projeto
 # Clone o repositório
 git clone https://github.com/seu-usuario/seu-repo](https://github.com/JoaoMatheusdeJesusMendes/Repertorio-Mestre-de-RPG.git
 
