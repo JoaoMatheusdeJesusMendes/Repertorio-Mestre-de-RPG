@@ -1,10 +1,10 @@
-📌 Sobre o Projeto
+# 📌 Sobre o Projeto
 
 Este projeto é uma plataforma web desenvolvida para promover o trabalho de um mestre de RPG, funcionando como um portfólio profissional e ponto de contato para novos jogadores.
 
 O site apresenta de forma clara os serviços oferecidos, informações sobre o mestre e formas de contato, com o objetivo de atrair e converter visitantes em clientes.
 
-🎯 Objetivo
+# 🎯 Objetivo
 O principal objetivo é destacar:
 - Serviços de mestragem (campanhas e one-shots)
 - Consultoria narrativa
@@ -18,8 +18,8 @@ Tudo isso com foco em apresentação profissional e conversão.
 ⚡ Vue.js
 🟦 TypeScript
 🎨 CSS3
-🖥️ Funcionalidades
 
+# 🖥️ Funcionalidades
 Página inicial com apresentação do mestre
 - Seção de serviços oferecidos
 - Área de contato direto (WhatsApp, Discord, Email)
