@@ -26,7 +26,7 @@ Página inicial com apresentação do mestre
 - Sessão de feedbacks de jogadores
 - Layout responsivo
 
-📸 Preview do Projeto
+# 📸 Preview do Projeto
 - Descrição do mestre:
 <img width="1855" height="793" alt="image" src="https://github.com/user-attachments/assets/2ef57d44-4b4a-4c4b-8e37-00309ff72742" />
 - Feedback de jogadores:
