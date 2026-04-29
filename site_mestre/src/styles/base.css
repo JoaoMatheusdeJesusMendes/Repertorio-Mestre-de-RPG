@@ -285,8 +285,10 @@ body {
 
 @media (max-width: 800px) {
   .hero-content {
+    display: block;
     grid-template-columns: 1fr;
     text-align: center;
+    align-items: center;
   }
 
   .hero-text h1 {
