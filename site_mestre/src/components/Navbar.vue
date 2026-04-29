@@ -2,7 +2,7 @@
 import { ref, onMounted, onBeforeUnmount } from "vue"
 import { getBrandInfo } from '../services/brandService'
 
-const isOpen = ref(true)
+const isOpen = ref(window.innerWidth >= 800)
 const root = ref<HTMLElement | null>(null)
 const { name, logo } = getBrandInfo()
 
@@ -11,6 +11,10 @@ const scrollToSection = (SectionId: string) => {
   if (section) {
     section.scrollIntoView({ behavior: 'smooth'})
   }
+}
+
+const handleResize = () => {
+  isOpen.value = window.innerWidth >= 768
 }
 
 const handleOutsideClick = (e: MouseEvent) => {
@@ -22,11 +26,13 @@ const handleOutsideClick = (e: MouseEvent) => {
 }
 
 onMounted(() => {
-  document.addEventListener("click", handleOutsideClick)
+  window.addEventListener("resize", handleResize)
+  window.addEventListener("click", handleOutsideClick)
 })
 
 onBeforeUnmount(() => {
-  document.removeEventListener("click", handleOutsideClick)
+  window.removeEventListener("resize", handleResize)
+  window.removeEventListener("click", handleOutsideClick)
 })
 
 </script>
